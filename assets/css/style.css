@@ -12,6 +12,10 @@ body {
   filter: alpha(opacity=50);
 }
 
+.bg img {
+  float: right;
+}
+
 /* Wrapper for page content to push down footer */
 #wrap {
     min-height: 100%;
