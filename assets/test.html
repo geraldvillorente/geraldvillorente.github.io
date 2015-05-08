@@ -12,7 +12,10 @@ function dontFreezeOnMobile() {
 }
 
 
-dontFreezeOnMobile();
+//dontFreezeOnMobile();
+if (navigator.userAgent.match(/Mobi/)) {
+    alert('mobile');
+}
 </script>
 </head>
 <body>
