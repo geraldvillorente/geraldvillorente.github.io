@@ -3,7 +3,7 @@
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script>
 function dontFreezeOnMobile() {
-        if (window.innerWidth <= 800 && window.innerHeight <= 600) {
+        if ((window.innerWidth <= 800 && window.innerHeight <= 600) || navigator.userAgent.match(/Mobi/)) {
             alert('mobile');
         }
         else {
@@ -12,13 +12,7 @@ function dontFreezeOnMobile() {
 }
 
 
-//dontFreezeOnMobile();
-if (navigator.userAgent.match(/Mobi/)) {
-    alert('mobile');
-}
-else {
-    alert('desktop');    
-}
+dontFreezeOnMobile();
 </script>
 </head>
 <body>
