@@ -85,3 +85,7 @@ code {
     padding: 20px 12px;
 }
 /* /Posts list */
+
+.description {
+  color: #000;
+}
